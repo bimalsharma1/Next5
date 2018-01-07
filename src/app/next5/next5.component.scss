@@ -1,0 +1,11 @@
+
+    .next5 {
+        display: inline-block;
+        background-color: lightgray;
+        padding: 5px;
+        width: 20%;
+        max-width: 20%;  
+        >div {
+            // width:20%;
+        } 
+    }

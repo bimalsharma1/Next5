@@ -1,0 +1,8 @@
+<div>
+<div class="next5" *ngFor="let nextRace of next5">
+  <div>{{nextRace.meetingName}}</div> 
+  <div>{{nextRace.races[0].raceName}}</div> 
+  <div>{{nextRace.races[0].raceClosedTime | date:"HH:mm:ss"}}</div> 
+  <div>{{nextRace.races[0].isSuspended}}</div> 
+</div>
+</div>
